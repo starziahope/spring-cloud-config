@@ -4,13 +4,14 @@ spring:
     url: jdbc:h2:mem:testdb
     username: sa
     #password: '{cipher}AQAaAz6jSm2dku3HVCSMLMXeP7Jg1vDblgEgB36QDGsZnLsQlEEWs5WbdVjMLGGDfLXJ7IUWPP8rPJS+EXi0e7BE+QlzK13o/81pgBEpiD5mzIcMkKEPwJecbU1hqPgkWTWgELF+FqWw6RQaUs2i1uwFIoE0j45QygEc0FS7BN65xKcvxhcTIFRTRbhHb1Tzwc3jGh86doBz49LIgfIGYNH5401Z0rrqSf0sVRLKz4vNDF5aeN4BAh4Cx5CsI3WsNKSrQCPatc3leQOmqNOi6vNpRY6kWqyonsqqmuEP4V80kLA4OfV+wHes1Z8WGVk9vuPpeAk+Db4/5W+vZxgudpJ2Zp0+BQ033BOQt9Po0zDqscNhp30HORseci040VUlqRA='
+    password: 1234
 
 token:
   expiration_time: 86400000
   secret: '{cipher}AQCQVT5+bpugxmLHJwIQs2eeO1Z9auyqTp1nIG37n91lmb0hT8meBfNca37gsObz1/hMrH10CWVzTi/S7vy+woVPyjH/2dGIOoHiOgmmuDgHJwp/kY0mwDVWz4nBs9e67Qil2gBttzuJlK6BIiWHBD7WXgpY9ZUOzWDzMUw9J7Y7GY9m1syr4VSurZ9eDqfy6kXkkh4xcZrOHd/7/wKjDCv36W6m5IYgP4UZ1bA+cFpCW/84lCh9by67dsrIyRiZg4wp3L0LlOFCulVG9dcxgXy58ed+gTKzIuIrFewZGSKg/uD+YHvv9jrF2OdG8toxXvuFrWTBrf8fbve04QC+INKOUkkR6t6upsGmj6f92tjKrAGjzemvRyqJGgBRggBmwGZw7vDpjvIrF8/xVq4LswoA'
 
 gateway:
-  ip: 192.168.0.3
+  ip: 192.168.0.5
 
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
